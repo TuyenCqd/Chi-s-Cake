@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 700px;
+    margin: 0 auto;
+}
+/* header */
+header{
+    height: 150px;
+    width: 100%;
+    background: url(images/banner.png)0px 150px;
+    background-size: cover;
+}
+.text{
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0,0,0,0.1);
+    top: 100px;
+    position: relative;
+} 
+.text-banner{
+    display: flex;
+    justify-content: center;
+}
+/* nav */
+.main-menu{
+    list-style-type: none;
+    display: flex;
+}
+.main-menu > li{
+    padding: 10px 10px;
+}
+.main-menu >li:first-child{
+    padding-left: 0;
+}
+.main-menu > li > a{
+    color: #A36A6A;
+}
+.main-menu > li > a:hover{
+    color: #127DE7;
+}
+    .sub-menu > li > a{
+        color: #A36A6A;
+        text-decoration: none;
+    }
+    li.parent{
+        position: relative;
+    }
+    ul.sub-menu {
+        display: none;
+        list-style-type: none;
+        background-color: cyan;
+        width: 180px;
+        padding: 5px;
+        position: absolute;
+    }  
+    .main-menu li.parent:hover ul.sub-menu{
+        display:block;
+    }
+    ul.sub-menu li.item:hover {
+        background-color: yellow;
+    }
+    ul.sub-menu li.item:hover a {
+        color: red;
+    }
+footer{
+    margin-top: 10px;
+    color: #A36A6A;
+}
+/* main */
+main{
+    color: #A36A6A;
+}
+.index > a{
+    color: #A36A6A;
+}
+.index > a:hover{
+    color: #127DE7;
+}
+hr{
+    margin: 10px 0;
+    background-color: #A36A6A;
+    height: 1px;
+}
+h1{
+    margin-top: 10px;
+}
+img{
+    width: 450px;
+    margin: 10px 0;
+}
